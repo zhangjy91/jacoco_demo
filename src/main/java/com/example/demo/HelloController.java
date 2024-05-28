@@ -16,12 +16,23 @@ public class HelloController {
     }
 
     @RequestMapping("basketball")
-    public String basketball(){return "basketball";}
+    public String basketball() {
+        return "basketball";
+    }
 
     @RequestMapping("football")
-    public String football(){return "football";}
+    public String football() {
+        return "football";
+    }
 
     @RequestMapping("pingpang")
-    public String pingpang(){return "pingpang";}
+    public String pingpang() {
+        return "pingpang";
+    }
+
+    @RequestMapping("eat")
+    public String eat() {
+        return "eat";
+    }
 
 }
