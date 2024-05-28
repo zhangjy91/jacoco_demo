@@ -15,4 +15,13 @@ public class HelloController {
         return "byebye!";
     }
 
+    @RequestMapping("basketball")
+    public String basketball(){return "basketball";}
+
+    @RequestMapping("football")
+    public String football(){return "football";}
+
+    @RequestMapping("pingpang")
+    public String pingpang(){return "pingpang";}
+
 }
