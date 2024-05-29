@@ -21,13 +21,13 @@ public class HelloController {
     }
 
     @RequestMapping("football")
-    public String football() {
-        return "football";
+    public String footballPlayer() {
+        return "梅西";
     }
 
     @RequestMapping("pingpang")
-    public String pingpang() {
-        return "pingpang";
+    public String pingpangstar() {
+        return "pingpang，国球";
     }
 
     @RequestMapping("eat")
