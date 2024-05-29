@@ -9,4 +9,7 @@ public class HiController {
     public String sayHi() {
         return "Hi!";
     }
+
+    @RequestMapping("sheep")
+    public String eatSheep(){return "very good";}
 }
